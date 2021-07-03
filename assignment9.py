@@ -111,10 +111,10 @@ import numpy as np
 import subprocess
 import shlex
  
-A = np.array([-7.1,-2])
-B = np.array([0.6,11])
-C = np.array([2.5,-2])
-D = np.array([2.5,11])
+A = np.array([-7.5,-2.5])
+B = np.array([1,11.5])
+C = np.array([5,-2.5])
+D = np.array([5,11.5])
 points = np.array((A,C,D,B))
  
 x_AB = line_gen(A,B)
